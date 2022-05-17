@@ -7,9 +7,9 @@ Demonstrates an example client side application that calls a private API.
 3. Run 'start' script
 
 ### Note:
-Ensure you change the axios calls to point to either your locally hosted mock API or the hosted repo at https://data-dome-module.herokuapp.com
+Ensure you change the Axios calls to point to either your locally hosted mock API or the hosted repo at https://data-dome-module.herokuapp.com
 You will also need to create your own Auth0 application and create a .env file with your applications credentials (domain, client_id, audience, and scope)
 
-If you wish to look at the code then see a working demo of this application visit -> https://data-dome-client.herokuapp.com/
+If you wish to see a working demo of this application visit -> https://data-dome-client.herokuapp.com/
 
 copyright 2022 Virgil Martinez
