@@ -1,38 +1,63 @@
 .App {
   text-align: center;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shoeCard {
+  border-radius: 16px;
+  padding: 13px;
+  margin: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.alert {
+  margin-top: 33px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.alert button {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.shoeList {
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shoeList h1 {
+  margin: 21px 0;
+  font-weight: 700;
+  font-size: 54px;
+  color: #38b6ff;
+}
+
+.hero img {
+  margin: auto;
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 9px;
+}
+
+.cart-item {
+  border: 0.5px solid rgba(101, 101, 101, 0.619);
+  border-radius: 3px;
+  margin: 6px 0;
+  padding: 6px;
+  font-size: 18px;
+}
+
+.cart-title {
+  font-weight: 700;
+}
+
+.cart-item button {
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.footer {
+  background-color: lightgray;
+  font-size: 16px;
+  padding: 33px;
+  margin-top: 33px;
 }

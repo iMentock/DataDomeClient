@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from "react-bootstrap"
+import "./App.css"
+import DdNavbar from "./components/DdNavbar"
+import Home from "./pages/Home"
+import Footer from "./components/Footer"
+import { CartProvider } from "react-use-cart"
 
+/**
+ * Main App component
+ * - Organizes navbar and provides cart context to all children components
+ */
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <CartProvider>
+      <div className="App">
+        <Container>
+          <DdNavbar />
+          <Home />
+        </Container>
+      </div>
+      <Footer />
+    </CartProvider>
+  )
 }
 
-export default App;
+export default App
